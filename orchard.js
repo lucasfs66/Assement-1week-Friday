@@ -51,7 +51,7 @@ const pinkPrice = .55
 
 // CODE HERE
 let totalAcres = 0
-for (let i = 0; i < 7; i++) {
+for (let i = 0; i < 7; i++) { // I made a code that going add all the number from all the arrays to give the total num
    totalAcres = totalAcres +fujiAcres[i] + galaAcres[i] + pinkAcres[i]
 }
 console.log(totalAcres)
@@ -112,7 +112,7 @@ let days = 0
 
 // CODE HERE
 
-while (acresLeft > 0) {
+while (acresLeft > 0) {// made a code that is going to and one day and subritc the avarage
     days++
     acresLeft = acresLeft - averageDailyAcres
 }
@@ -151,7 +151,7 @@ let f = 0
 let g = 0
 let p = 0
 
-for (let i = 0; i < 7; i++) {
+for (let i = 0; i < 7; i++) {// made a code that is going to multiplicate the acres per 6.5 to every array number, but for that to happen i had to put zero at the end
      
         f = fujiAcres[i] * 6.5
         g = galaAcres[i] * 6.5
@@ -194,7 +194,7 @@ let fujiTotalPounds = 0
  let pinkTotalPounds = 0
 
  
- for (let i = 0; i < 7; i++) {
+ for (let i = 0; i < 7; i++) { // made a code that is going to multiplicate the number of tons per 2000 to give me in pounds
     fujiTotalPounds += (fujiTons[i] * 2000)
     galaTotalPounds += (galaTons[i] * 2000)
     pinkTotalPounds += (pinkTons[i] * 2000)
